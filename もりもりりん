@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<!--     HPのB土台（骨）　CSSの引き出し　 HP内のフォントの引き出しを行う-->
+<head>
+    <meta charset="UTF-8">
+    <title>MORIZO_CHANNEL</title>
+    <link href="https://fonts.googleapis.com/css?family=Bitter&display=swap" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+    
+    
+<!--        BODYの始まり（肉）--><!--id="indexは、CSS編集の目印-->
+<body id="index">　
+<!--        HEADERの始まり（顔）-->
+<header>
+    
+<!--        class="logo"始まり -->            
+                <div class="logo">                                                        
+<!--        ↓本の内容外：ロゴのサイズ変更-->
+                   <style type="text/css">
+                    img.example1 {
+                    width: 300px;
+                    height: 90px;
+                                    }
+                    </style> 
+<!--                    ↑本の内容外：ロゴのサイズ変更-->
+                    
+                    <a href="index.html">
+<!--        本では、<img ~ .png" alt="SNAPPERS">のみ　　　　　　　　　　　　-->
+                    <img src="images/logo_1.PNG" class="example1">
+                    </a>
+<!--        index.htmlは、ホーム画面に戻るための設定 -->
+                </div>
+            
+            
+<!--        global-navメニュバーのこと -->
+                    <nav>
+                        <ul class="global-nav">
+                            <li><a href="portfolio.html">Portfolio</a></li>    
+                            <li><a href="about.html">    About    </a></li>
+                            <li><a href="contact.html">  Contact  </a></li>
+                        </ul>    
+                    </nav> 
+</header>
+        
+    
+<!--        見出しの始まり（体）-->
+        <div id="wrap">
+            <div class="content">   
+                    <h1>Live Your Life,<br>You Will Remember</h1>
+                    <p>Hi! MORIZO CHANNELへようこそ。<br>ここでは、モリゾーの自己顕示欲を解消するため、作成した人生最初のホームページになります。<br>気ままで好き勝手にやっていますが、そこは温かい目で見ていってください。
+                    </p>
+                    <p class="btn"><a href="portfolio.html">My Portfolio</a></p>
+            </div>
+        </div>                                                                              
+<!--        idは、cssを書くための目じるし -->
+        
+    
+<!--        FOOTERの始まり（足）-->
+<footer>     
+            <ul class="copyright">
+            <small>(C)2020 YK.MORIZO-CHANNEL.></small>
+            </ul>
+</footer>
+        
+</body>      
+    
+
+
+</html>
